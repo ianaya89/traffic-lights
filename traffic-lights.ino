@@ -14,10 +14,10 @@ void semaphoreOne() {
   int count = 0;
     
   while (count < 50) { 
-    int valor = digitalRead(button);
-    Serial.println(valor);
+    int value = digitalRead(button);
+    Serial.println(value);
     
-    if (valor == false) { 
+    if (value == false) { 
       break; 
     }
    
@@ -56,10 +56,10 @@ void semaphoreTwo() {
   int count = 0;
   
   while (count < 50) {
-    int valor = digitalRead(button);
-    Serial.println(valor);
+    int value = digitalRead(button);
+    Serial.println(value);
   
-    if (valor == false) {
+    if (value == false) {
       break;
     }
     
